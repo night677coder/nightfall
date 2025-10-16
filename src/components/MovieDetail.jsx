@@ -7,6 +7,16 @@ function MovieDetail({ movie, recommended = [], onSelect, onBack }) {
   const [selectedEpisode, setSelectedEpisode] = useState(1);
   const [maxEpisodes, setMaxEpisodes] = useState(movie.seasonsEpisodes ? movie.seasonsEpisodes[0] : 10);
 
+  const posterSrc = movie?.poster_path
+    ? movie.poster_path.startsWith('http')
+      ? movie.poster_path
+      : `https://image.tmdb.org/t/p/w780${movie.poster_path}`
+    : 'https://via.placeholder.com/220x330?text=No+Image';
+
+  const handlePosterError = (event) => {
+    event.target.src = 'https://via.placeholder.com/220x330?text=No+Image';
+  };
+
   const availableServers = useMemo(() => {
     if (movie.type === 'tv') {
       return [];
@@ -72,9 +82,9 @@ function MovieDetail({ movie, recommended = [], onSelect, onBack }) {
       <section className="detail__info">
         <img
           className="detail__poster"
-          src={movie.poster_path.startsWith('http') ? movie.poster_path : `https://image.tmdb.org/t/p/w780${movie.poster_path}`}
+          src={posterSrc}
           alt={movie.title}
-          onError={(e) => { e.target.src = 'https://via.placeholder.com/220x330?text=No+Image'; }}
+          onError={handlePosterError}
         />
         <div className="detail__meta">
           <h1>{movie.title}</h1>
