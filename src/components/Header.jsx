@@ -65,6 +65,11 @@ function Header({ onNavClick, searchValue, onSearchChange }) {
             className="header__search"
             value={searchValue}
             onChange={(e) => onSearchChange(e.target.value)}
+            onKeyDown={(e) => {
+              if (e.key === 'Enter') {
+                onNavClick('home');
+              }
+            }}
           />
         )}
       </div>
