@@ -13,6 +13,19 @@ function Row({ title, movies, id, showArrows = false, onSelect, onRemove }) {
     postersRef.current.scrollBy({ left: 500, behavior: 'smooth' });
   };
 
+  const getPosterSrc = (posterPath) => {
+    if (!posterPath) {
+      return 'https://via.placeholder.com/180x260?text=No+Image';
+    }
+    return posterPath.startsWith('http')
+      ? posterPath
+      : `https://image.tmdb.org/t/p/w780${posterPath}`;
+  };
+
+  const handlePosterError = (event) => {
+    event.target.src = 'https://via.placeholder.com/180x260?text=No+Image';
+  };
+
   return (
     <div className="row" id={id}>
       <h2>{title}</h2>
@@ -25,12 +38,10 @@ function Row({ title, movies, id, showArrows = false, onSelect, onRemove }) {
             <div key={index} className="row__posterContainer">
               <img
                 className="row__poster"
-                src={
-                  movie.poster_path && movie.poster_path.startsWith('http')
-                    ? movie.poster_path
-                    : `https://image.tmdb.org/t/p/w780${movie.poster_path ?? ''}`
-                }
+                src={getPosterSrc(movie.poster_path)}
                 alt={movie.title}
+                loading="lazy"
+                onError={handlePosterError}
                 onClick={() => onSelect && onSelect(movie)}
               />
               {onRemove && (
