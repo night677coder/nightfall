@@ -4,4 +4,4 @@
 - [x] Update vite.config.js to set base: '/nightfall/' for correct GitHub Pages deployment
 - [x] Run npm run build to create the dist folder
 - [x] Run npm run deploy to push to GitHub Pages
-- [ ] Test the deployed site to ensure homepage loads correctly
+- [x] Test the deployed site to ensure homepage loads correctly
