@@ -6,3 +6,4 @@
 - [x] Run npm run deploy to push to GitHub Pages
 - [x] Test the deployed site to ensure homepage loads correctly
 - [x] Commit and push changes to main branch
+- [x] Verify deployment on GitHub Pages

@@ -6,6 +6,7 @@ function MovieDetail({ movie, recommended = [], onSelect, onBack }) {
   const [selectedSeason, setSelectedSeason] = useState(1);
   const [selectedEpisode, setSelectedEpisode] = useState(1);
   const [maxEpisodes, setMaxEpisodes] = useState(movie.seasonsEpisodes ? movie.seasonsEpisodes[0] : 10);
+  const [isVideoPlaying, setIsVideoPlaying] = useState(false);
 
   const posterSrc = movie?.poster_path
     ? movie.poster_path.startsWith('http')
@@ -162,10 +163,27 @@ function MovieDetail({ movie, recommended = [], onSelect, onBack }) {
               sandbox="allow-same-origin allow-scripts allow-presentation"
               title={`${movie.title} trailer`}
             ></iframe>
+          ) : isVideoPlaying ? (
+            <iframe
+              src={movie.videoUrl || `https://player4u.xyz/embed?key=${movie.title.toLowerCase().replace(/ /g, '%20')}`}
+              width="100%"
+              height="100%"
+              frameBorder="0"
+              scrolling="no"
+              allowFullScreen
+              allow="fullscreen; encrypted-media; autoplay; picture-in-picture"
+              sandbox="allow-same-origin allow-scripts allow-presentation"
+              title={`${movie.title} trailer`}
+            ></iframe>
           ) : (
             <>
               <img src={movie.trailerImage} alt={`${movie.title} trailer`} />
-              <button className="detail__play">▶</button>
+              <button
+                className="detail__play"
+                onClick={() => setIsVideoPlaying(true)}
+              >
+                ▶
+              </button>
             </>
           )}
         </div>
