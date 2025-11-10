@@ -146,6 +146,8 @@ function MovieDetail({ movie, recommended = [], onSelect, onBack }) {
               frameBorder="0"
               scrolling="no"
               allowFullScreen
+              allow="fullscreen; encrypted-media; autoplay; picture-in-picture"
+              sandbox="allow-same-origin allow-scripts allow-presentation"
               title={`${movie.title} trailer`}
             ></iframe>
           ) : (activeVideoUrl || movie.videoUrl) ? (
@@ -156,6 +158,8 @@ function MovieDetail({ movie, recommended = [], onSelect, onBack }) {
               frameBorder="0"
               scrolling="no"
               allowFullScreen
+              allow="fullscreen; encrypted-media; autoplay; picture-in-picture"
+              sandbox="allow-same-origin allow-scripts allow-presentation"
               title={`${movie.title} trailer`}
             ></iframe>
           ) : (
