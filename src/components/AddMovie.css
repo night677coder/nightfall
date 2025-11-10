@@ -78,10 +78,13 @@
   border-radius: 10px;
 }
 
-.movie-preview img {
+.movie-preview img,
+.movie-preview iframe {
   width: 200px;
   height: 300px;
   object-fit: cover;
+  border: none;
+  border-radius: 5px;
 }
 
 .movie-preview h4 {

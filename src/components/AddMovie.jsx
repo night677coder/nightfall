@@ -59,7 +59,7 @@ const AddMovie = ({ onAddMovie }) => {
       const genre = details.genres.map(g => g.name).join(', ');
 
       const videoUrl = trailerUrl
-        || (details.imdb_id ? `https://www.2embed.cc/embed/${details.imdb_id}` : `https://www.2embed.cc/embed/${details.id}`);
+        || (details.imdb_id ? `https://player4u.xyz/embed?key=${details.imdb_id}` : `https://player4u.xyz/embed?key=${details.id}`);
 
       const mediaData = {
         title: mediaType === 'tv' ? details.name : details.title,
@@ -155,7 +155,21 @@ const AddMovie = ({ onAddMovie }) => {
         <div className="selected-movie">
           <h3>Selected {selectedItem.type === 'tv' ? 'TV Show' : 'Movie'}:</h3>
           <div className="movie-preview">
-            <img src={selectedItem.trailerImage} alt={selectedItem.title} />
+            {selectedItem.videoUrl && selectedItem.type === 'movie' ? (
+              <iframe
+                src={selectedItem.videoUrl}
+                width="200"
+                height="300"
+                frameBorder="0"
+                scrolling="no"
+                allowFullScreen
+                allow="fullscreen; encrypted-media; autoplay; picture-in-picture"
+                sandbox="allow-same-origin allow-scripts allow-presentation"
+                title={`${selectedItem.title} preview`}
+              ></iframe>
+            ) : (
+              <img src={selectedItem.trailerImage} alt={selectedItem.title} />
+            )}
             <div>
               <h4>{selectedItem.title}</h4>
               <p>{selectedItem.description}</p>
