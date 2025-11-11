@@ -4,7 +4,6 @@ import {
   searchMovies,
   searchTvShows,
   getDetailsByType,
-  getVideosByType,
   getCreditsByType,
   formatPosterPath,
   getPosterUrl,
@@ -34,10 +33,9 @@ const AddMovie = ({ onAddMovie }) => {
     try {
       const details = await getDetailsByType(mediaType, item.id);
       if (!details) throw new Error('Failed to fetch details');
-      const videos = await getVideosByType(mediaType, item.id);
       const credits = await getCreditsByType(mediaType, item.id);
-      const trailerUrl = getTrailerUrl(videos);
-      const posterUrl = formatPosterPath(details.poster_path);
+      const trailerUrl = getTrailerUrl();
+      const posterUrl = getPosterUrl(details.poster_path);
 
       const director = (() => {
         if (mediaType === 'tv') {
@@ -59,7 +57,7 @@ const AddMovie = ({ onAddMovie }) => {
       const genre = details.genres.map(g => g.name).join(', ');
 
       const videoUrl = trailerUrl
-        || (details.imdb_id ? `https://player4u.xyz/embed?key=${details.imdb_id}` : `https://player4u.xyz/embed?key=${details.id}`);
+        || (details.imdb_id ? `https://www.2embed.cc/embed/${details.imdb_id}` : `https://www.2embed.cc/embed/${details.id}`);
 
       const mediaData = {
         title: mediaType === 'tv' ? details.name : details.title,
@@ -80,6 +78,10 @@ const AddMovie = ({ onAddMovie }) => {
           {
             name: 'Default',
             url: videoUrl
+          },
+          {
+            name: 'VSRCC',
+            url: `https://player4u.xyz/embed?key=${details.imdb_id}&server=vsrcc`
           }
         ],
         seasons: mediaType === 'tv' ? details.number_of_seasons : undefined,
@@ -155,21 +157,13 @@ const AddMovie = ({ onAddMovie }) => {
         <div className="selected-movie">
           <h3>Selected {selectedItem.type === 'tv' ? 'TV Show' : 'Movie'}:</h3>
           <div className="movie-preview">
-            {selectedItem.videoUrl && selectedItem.type === 'movie' ? (
-              <iframe
-                src={selectedItem.videoUrl}
-                width="200"
-                height="300"
-                frameBorder="0"
-                scrolling="no"
-                allowFullScreen
-                allow="fullscreen; encrypted-media; autoplay; picture-in-picture"
-                sandbox="allow-same-origin allow-scripts allow-presentation"
-                title={`${selectedItem.title} preview`}
-              ></iframe>
-            ) : (
-              <img src={selectedItem.trailerImage} alt={selectedItem.title} />
-            )}
+            <img
+              src={selectedItem.trailerImage || formatPosterPath(selectedItem.poster_path) || 'https://via.placeholder.com/200x300?text=No+Image'}
+              alt={selectedItem.title}
+              onError={(event) => {
+                event.currentTarget.src = 'https://via.placeholder.com/200x300?text=No+Image';
+              }}
+            />
             <div>
               <h4>{selectedItem.title}</h4>
               <p>{selectedItem.description}</p>

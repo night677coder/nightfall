@@ -148,11 +148,11 @@ function MovieDetail({ movie, recommended = [], onSelect, onBack }) {
               scrolling="no"
               allowFullScreen
               allow="fullscreen; encrypted-media; autoplay; picture-in-picture"
-              sandbox="allow-same-origin allow-scripts allow-presentation"
               title={`${movie.title} trailer`}
             ></iframe>
           ) : (activeVideoUrl || movie.videoUrl) ? (
             <iframe
+              key={activeServer}
               src={activeVideoUrl || movie.videoUrl}
               width="100%"
               height="100%"
@@ -160,19 +160,17 @@ function MovieDetail({ movie, recommended = [], onSelect, onBack }) {
               scrolling="no"
               allowFullScreen
               allow="fullscreen; encrypted-media; autoplay; picture-in-picture"
-              sandbox="allow-same-origin allow-scripts allow-presentation"
               title={`${movie.title} trailer`}
             ></iframe>
           ) : isVideoPlaying ? (
             <iframe
-              src={movie.videoUrl || `https://player4u.xyz/embed?key=${movie.title.toLowerCase().replace(/ /g, '%20')}`}
+              src={movie.videoUrl}
               width="100%"
               height="100%"
               frameBorder="0"
               scrolling="no"
               allowFullScreen
               allow="fullscreen; encrypted-media; autoplay; picture-in-picture"
-              sandbox="allow-same-origin allow-scripts allow-presentation"
               title={`${movie.title} trailer`}
             ></iframe>
           ) : (
@@ -198,6 +196,7 @@ function MovieDetail({ movie, recommended = [], onSelect, onBack }) {
                   onClick={() => {
                     setActiveServer(server.name);
                     setActiveVideoUrl(server.url);
+                    setIsVideoPlaying(true);
                   }}
                 >
                   {server.name}

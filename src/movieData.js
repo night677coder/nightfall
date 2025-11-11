@@ -15,7 +15,7 @@ const movieList = [
     videoUrl: "https://www.2embed.cc/embed/tt1375666",
     servers: [
       { name: "Default", url: "https://www.2embed.cc/embed/tt1375666" },
-      { name: "VSRCC", url: "https://www.2embed.cc/embed/tt1375666?server=vsrcc" }
+      { name: "VSRCC", url: "https://player4u.xyz/embed?key=tt1375666&server=vsrcc" }
     ],
     type: "movie"
   },
@@ -35,7 +35,7 @@ const movieList = [
     videoUrl: "https://www.2embed.cc/embed/tt0816692",
     servers: [
       { name: "Default", url: "https://www.2embed.cc/embed/tt0816692" },
-      { name: "VSRCC", url: "https://www.2embed.cc/embed/tt0816692?server=vsrcc" }
+      { name: "VSRCC", url: "https://player4u.xyz/embed?key=tt0816692&server=vsrcc" }
     ],
     type: "movie"
   },
@@ -55,7 +55,7 @@ const movieList = [
     videoUrl: "https://www.2embed.cc/embed/tt0468569",
     servers: [
       { name: "Default", url: "https://www.2embed.cc/embed/tt0468569" },
-      { name: "VSRCC", url: "https://www.2embed.cc/embed/tt0468569?server=vsrcc" }
+      { name: "VSRCC", url: "https://player4u.xyz/embed?key=tt0468569&server=vsrcc" }
     ],
     type: "movie"
   },
@@ -75,7 +75,7 @@ const movieList = [
     videoUrl: "https://www.2embed.cc/embed/tt0110912",
     servers: [
       { name: "Default", url: "https://www.2embed.cc/embed/tt0110912" },
-      { name: "VSRCC", url: "https://www.2embed.cc/embed/tt0110912?server=vsrcc" }
+      { name: "VSRCC", url: "https://player4u.xyz/embed?key=tt0110912&server=vsrcc" }
     ],
     type: "movie"
   },
@@ -100,7 +100,7 @@ const movieList = [
       },
       {
         name: "VSRCC",
-        url: "https://www.2embed.cc/embed/tt0137523?server=vsrcc"
+        url: "https://www.2embed.cc/embed/tt0137523&server=vsrcc"
       }
     ],
     type: "movie"
@@ -121,7 +121,7 @@ const movieList = [
     videoUrl: "https://www.2embed.cc/embed/tt0133093",
     servers: [
       { name: "Default", url: "https://www.2embed.cc/embed/tt0133093" },
-      { name: "VSRCC", url: "https://www.2embed.cc/embed/tt0133093?server=vsrcc" }
+      { name: "VSRCC", url: "https://player4u.xyz/embed?key=tt0133093&server=vsrcc" }
     ],
     type: "movie"
   },
@@ -141,7 +141,7 @@ const movieList = [
     videoUrl: "https://www.2embed.cc/embed/tt0109830",
     servers: [
       { name: "Default", url: "https://www.2embed.cc/embed/tt0109830" },
-      { name: "VSRCC", url: "https://www.2embed.cc/embed/tt0109830?server=vsrcc" }
+      { name: "VSRCC", url: "https://player4u.xyz/embed?key=tt0109830&server=vsrcc" }
     ],
     type: "movie"
   },
@@ -159,6 +159,10 @@ const movieList = [
     cast: "Tim Robbins, Morgan Freeman, Bob Gunton",
     trailerImage: "https://image.tmdb.org/t/p/w780/iNh3BivHyg5sQRPP1KOkzguEX0H.jpg",
     videoUrl: "https://www.2embed.cc/embed/tt0111161",
+    servers: [
+      { name: "Default", url: "https://www.2embed.cc/embed/tt0111161" },
+      { name: "VSRCC", url: "https://player4u.xyz/embed?key=tt0111161&server=vsrcc" }
+    ],
     type: "movie"
   },
   {
@@ -753,21 +757,24 @@ const movieList = [
     videoUrl: "https://www.2embed.cc/embed/tt20969586",
     type: "movie"
   },
-
   {
-    title: "Batman Begins",
-    poster_path: "/4MpN4kIEqUjW8OPtOQJXlTdHiJV.jpg",
-    description: "Driven by tragedy, billionaire Bruce Wayne dedicates his life to uncovering and defeating the corruption that plagues his home, Gotham City. Unable to work within the system, he instead creates a new identity, a symbol of fear for the criminal underworld - The Batman.",
-    releaseDate: "June 15, 2005",
-    duration: "2h 20m",
-    rating: "8.2",
-    genre: "Action",
-    director: "Christopher Nolan",
+    title: "Avatar",
+    poster_path: "/6EiRUJpuoeQPghrs3YNktfnqOVh.jpg",
+    description: "In the 22nd century, a paraplegic Marine is dispatched to the moon Pandora on a unique mission, but becomes torn between following orders and protecting an alien civilization.",
+    releaseDate: "December 18, 2009",
+    duration: "2h 42m",
+    rating: "7.8",
+    genre: "Action, Adventure, Fantasy, Sci-Fi",
+    director: "James Cameron",
     quality: "HD",
     country: "United States",
-    cast: "Christian Bale, Michael Caine, Liam Neeson, Katie Holmes",
-    trailerImage: "https://image.tmdb.org/t/p/w780/4MpN4kIEqUjW8OPtOQJXlTdHiJV.jpg",
-    videoUrl: "https://www.2embed.cc/embed/tt0372784",
+    cast: "Sam Worthington, Zoe Saldana, Sigourney Weaver, Stephen Lang, Michelle Rodriguez",
+    trailerImage: "https://image.tmdb.org/t/p/w780/kyeqWziAaRVlxRYJBEKwQgqcXxh.jpg",
+    videoUrl: "https://www.2embed.cc/embed/tt0499549",
+    servers: [
+      { name: "Default", url: "https://www.2embed.cc/embed/tt0499549" },
+      { name: "VSRCC", url: "https://player4u.xyz/embed?key=tt0499549&server=vsrcc" }
+    ],
     type: "movie"
   },
   {
@@ -1504,7 +1511,7 @@ const movieList = [
     videoUrl: "https://www.2embed.cc/embed/tt0120903",
     servers: [
       { name: "Default", url: "https://www.2embed.cc/embed/tt0120903" },
-      { name: "VSRCC", url: "https://www.2embed.cc/embed/tt0120903?server=vsrcc" }
+      { name: "VSRCC", url: "https://player4u.xyz/embed?key=tt0120903&server=vsrcc" }
     ],
     type: "movie"
   },
@@ -1524,7 +1531,7 @@ const movieList = [
     videoUrl: "https://www.2embed.cc/embed/tt0290334",
     servers: [
       { name: "Default", url: "https://www.2embed.cc/embed/tt0290334" },
-      { name: "VSRCC", url: "https://www.2embed.cc/embed/tt0290334?server=vsrcc" }
+      { name: "VSRCC", url: "https://player4u.xyz/embed?key=tt0290334&server=vsrcc" }
     ],
     type: "movie"
   },
@@ -1544,7 +1551,7 @@ const movieList = [
     videoUrl: "https://www.2embed.cc/embed/tt0376994",
     servers: [
       { name: "Default", url: "https://www.2embed.cc/embed/tt0376994" },
-      { name: "VSRCC", url: "https://www.2embed.cc/embed/tt0376994?server=vsrcc" }
+      { name: "VSRCC", url: "https://player4u.xyz/embed?key=tt0376994&server=vsrcc" }
     ],
     type: "movie"
   },
@@ -1564,7 +1571,7 @@ const movieList = [
     videoUrl: "https://www.2embed.cc/embed/tt1270798",
     servers: [
       { name: "Default", url: "https://www.2embed.cc/embed/tt1270798" },
-      { name: "VSRCC", url: "https://www.2embed.cc/embed/tt1270798?server=vsrcc" }
+      { name: "VSRCC", url: "https://player4u.xyz/embed?key=tt1270798&server=vsrcc" }
     ],
     type: "movie"
   },
@@ -1584,7 +1591,7 @@ const movieList = [
     videoUrl: "https://www.2embed.cc/embed/tt1877832",
     servers: [
       { name: "Default", url: "https://www.2embed.cc/embed/tt1877832" },
-      { name: "VSRCC", url: "https://www.2embed.cc/embed/tt1877832?server=vsrcc" }
+      { name: "VSRCC", url: "https://player4u.xyz/embed?key=tt1877832&server=vsrcc" }
     ],
     type: "movie"
   },
@@ -1620,7 +1627,7 @@ const movieList = [
     videoUrl: "https://www.2embed.cc/embed/tt6565702",
     servers: [
       { name: "Default", url: "https://www.2embed.cc/embed/tt6565702" },
-      { name: "VSRCC", url: "https://www.2embed.cc/embed/tt6565702?server=vsrcc" }
+      { name: "VSRCC", url: "https://player4u.xyz/embed?key=tt6565702&server=vsrcc" }
     ],
     type: "movie"
   },
@@ -1640,7 +1647,7 @@ const movieList = [
     videoUrl: "https://www.2embed.cc/embed/tt1430132",
     servers: [
       { name: "Default", url: "https://www.2embed.cc/embed/tt1430132" },
-      { name: "VSRCC", url: "https://www.2embed.cc/embed/tt1430132?server=vsrcc" }
+      { name: "VSRCC", url: "https://player4u.xyz/embed?key=tt1430132&server=vsrcc" }
     ],
     type: "movie"
   },
@@ -1660,7 +1667,7 @@ const movieList = [
     videoUrl: "https://www.2embed.cc/embed/tt3315342",
     servers: [
       { name: "Default", url: "https://www.2embed.cc/embed/tt3315342" },
-      { name: "VSRCC", url: "https://www.2embed.cc/embed/tt3315342?server=vsrcc" }
+      { name: "VSRCC", url: "https://player4u.xyz/embed?key=tt3315342&server=vsrcc" }
     ],
     type: "movie"
   },
@@ -1712,7 +1719,7 @@ const movieList = [
     videoUrl: "https://www.2embed.cc/embed/tt4682266",
     servers: [
       { name: "Default", url: "https://www.2embed.cc/embed/tt4682266" },
-      { name: "VSRCC", url: "https://www.2embed.cc/embed/tt4682266?server=vsrcc" }
+      { name: "VSRCC", url: "https://player4u.xyz/embed?key=tt4682266&server=vsrcc" }
     ],
     type: "movie"
   },
@@ -1748,7 +1755,7 @@ const movieList = [
     videoUrl: "https://www.2embed.cc/embed/tt1259571",
     servers: [
       { name: "Default", url: "https://www.2embed.cc/embed/tt1259571" },
-      { name: "VSRCC", url: "https://www.2embed.cc/embed/tt1259571?server=vsrcc" }
+      { name: "VSRCC", url: "https://player4u.xyz/embed?key=tt1259571&server=vsrcc" }
     ],
     type: "movie"
   },
@@ -1768,7 +1775,7 @@ const movieList = [
     videoUrl: "https://www.2embed.cc/embed/tt1325004",
     servers: [
       { name: "Default", url: "https://www.2embed.cc/embed/tt1325004" },
-      { name: "VSRCC", url: "https://www.2embed.cc/embed/tt1325004?server=vsrcc" }
+      { name: "VSRCC", url: "https://player4u.xyz/embed?key=tt1325004&server=vsrcc" }
     ],
     type: "movie"
   },
@@ -1788,7 +1795,7 @@ const movieList = [
     videoUrl: "https://www.2embed.cc/embed/tt1324999",
     servers: [
       { name: "Default", url: "https://www.2embed.cc/embed/tt1324999" },
-      { name: "VSRCC", url: "https://www.2embed.cc/embed/tt1324999?server=vsrcc" }
+      { name: "VSRCC", url: "https://player4u.xyz/embed?key=tt1324999&server=vsrcc" }
     ],
     type: "movie"
   },
@@ -1808,7 +1815,7 @@ const movieList = [
     videoUrl: "https://www.2embed.cc/embed/tt1673434",
     servers: [
       { name: "Default", url: "https://www.2embed.cc/embed/tt1673434" },
-      { name: "VSRCC", url: "https://www.2embed.cc/embed/tt1673434?server=vsrcc" }
+      { name: "VSRCC", url: "https://player4u.xyz/embed?key=tt1673434&server=vsrcc" }
     ],
     type: "movie"
   },
@@ -1828,7 +1835,7 @@ const movieList = [
     videoUrl: "https://www.2embed.cc/embed/tt0117060",
     servers: [
       { name: "Default", url: "https://www.2embed.cc/embed/tt0117060" },
-      { name: "VSRCC", url: "https://www.2embed.cc/embed/tt0117060?server=vsrcc" }
+      { name: "VSRCC", url: "https://player4u.xyz/embed?key=tt0117060&server=vsrcc" }
     ],
     type: "movie"
   },
@@ -1848,7 +1855,7 @@ const movieList = [
     videoUrl: "https://www.2embed.cc/embed/tt0120755",
     servers: [
       { name: "Default", url: "https://www.2embed.cc/embed/tt0120755" },
-      { name: "VSRCC", url: "https://www.2embed.cc/embed/tt0120755?server=vsrcc" }
+      { name: "VSRCC", url: "https://player4u.xyz/embed?key=tt0120755&server=vsrcc" }
     ],
     type: "movie"
   },
@@ -1868,7 +1875,7 @@ const movieList = [
     videoUrl: "https://www.2embed.cc/embed/tt0317919",
     servers: [
       { name: "Default", url: "https://www.2embed.cc/embed/tt0317919" },
-      { name: "VSRCC", url: "https://www.2embed.cc/embed/tt0317919?server=vsrcc" }
+      { name: "VSRCC", url: "https://player4u.xyz/embed?key=tt0317919&server=vsrcc" }
     ],
     type: "movie"
   },
@@ -2992,6 +2999,1051 @@ const movieList = [
     trailerImage: "https://www.themoviedb.org/t/p/w1280/zfE0R94v1E8cuKAerbskfD3VfUt.jpg",
     videoUrl: "https://www.2embed.cc/embed/tt7349950",
     type: "movie"
+  },
+  {
+    title: "Jurassic Park",
+    poster_path: "https://www.themoviedb.org/t/p/w1280/bRKmwU9eXZI5dKT11Zx1KsayiLW.jpg",
+    description: "A wealthy entrepreneur secretly creates a theme park featuring living dinosaurs drawn from prehistoric DNA. Before opening day, he invites a team of experts and his two eager grandchildren to experience the park and help calm anxious investors. However, the park is anything but amusing as the park's security precautions fail.",
+    releaseDate: "June 11, 1993",
+    duration: "2h 7m",
+    rating: "8.2",
+    genre: "Science Fiction, Adventure",
+    director: "Steven Spielberg",
+    quality: "HD",
+    country: "United States",
+    cast: "Sam Neill, Laura Dern, Jeff Goldblum, Richard Attenborough, Bob Peck, Martin Ferrero, BD Wong, Samuel L. Jackson, Wayne Knight, Joseph Mazzello, Ariana Richards",
+    trailerImage: "https://image.tmdb.org/t/p/w780/oU7OOEzWTkfDh9jWp6HVxzDkdKj.jpg",
+    videoUrl: "https://www.2embed.cc/embed/tt0107290",
+    servers: [
+      { name: "Default", url: "https://www.2embed.cc/embed/tt0107290" }
+    ],
+    type: "movie"
+  },
+  {
+    title: "The Lost World: Jurassic Park",
+    poster_path: "https://www.themoviedb.org/t/p/w1280/7r8adhMO3SyODPHE2lv8kDTX6NK.jpg",
+    description: "Four years after Jurassic Park's genetically bred dinosaurs ran amok, multimillionaire John Hammond shocks chaos theorist Ian Malcolm by revealing that he has been breeding more beasties at a secret location. Malcolm, his paleontologist ladylove and a wildlife videographer join an expedition to document the lethal lizards in their natural habitat one last time.",
+    releaseDate: "May 23, 1997",
+    duration: "2h 9m",
+    rating: "6.6",
+    genre: "Action, Adventure, Sci-Fi",
+    director: "Steven Spielberg",
+    quality: "HD",
+    country: "United States",
+    cast: "Jeff Goldblum, Julianne Moore, Pete Postlethwaite, Arliss Howard, Richard Attenborough, Joseph Mazzello, Ariana Richards",
+    trailerImage: "https://image.tmdb.org/t/p/w780/6VCxHvqKzAf9wUh7iF2y9GypZQX.jpg",
+    videoUrl: "https://www.2embed.cc/embed/tt0119567",
+    servers: [
+      { name: "Default", url: "https://www.2embed.cc/embed/tt0119567" }
+    ],
+    type: "movie"
+  },
+  {
+    title: "Jurassic Park III",
+    poster_path: "https://www.themoviedb.org/t/p/w1280/xyxqgEuxmxOj3mZ3tPSzgqpCBi7.jpg",
+    description: "In need of funds for research, Dr. Alan Grant accepts a large sum of money to accompany Paul and Amanda Kirby on an aerial tour of the infamous Isla Sorna. It isn't long before all hell breaks loose and the stranded wayfarers must fight for survival as a host of new -- and even more deadly -- dinosaurs try to make snacks of them.",
+    releaseDate: "July 18, 2001",
+    duration: "1h 32m",
+    rating: "6.0",
+    genre: "Action, Adventure, Sci-Fi",
+    director: "Joe Johnston",
+    quality: "HD",
+    country: "United States",
+    cast: "Sam Neill, William H. Macy, Téa Leoni, Alessandro Nivola, Trevor Morgan, Michael Jeter",
+    trailerImage: "https://image.tmdb.org/t/p/w780/oMSdFsQyBn7TQ4avdjqDXshLRdm.jpg",
+    videoUrl: "https://www.2embed.cc/embed/tt0163025",
+    servers: [
+      { name: "Default", url: "https://www.2embed.cc/embed/tt0163025" }
+    ],
+    type: "movie"
+  },
+  {
+    title: "Jurassic World",
+    poster_path: "/rhr4y79GpxQF9IsfJItRXVaoGs4.jpg",
+    description: "Twenty-two years after the events of Jurassic Park, Isla Nublar now features a fully functioning dinosaur theme park, Jurassic World, as originally envisioned by John Hammond.",
+    releaseDate: "June 12, 2015",
+    duration: "2h 4m",
+    rating: "7.0",
+    genre: "Action, Adventure, Sci-Fi",
+    director: "Colin Trevorrow",
+    quality: "HD",
+    country: "United States",
+    cast: "Chris Pratt, Bryce Dallas Howard, Irrfan Khan, Vincent D'Onofrio, Omar Sy",
+    trailerImage: "https://image.tmdb.org/t/p/w780/rhr4y79GpxQF9IsfJItRXVaoGs4.jpg",
+    videoUrl: "https://www.2embed.cc/embed/tt0369610",
+    servers: [
+      { name: "Default", url: "https://www.2embed.cc/embed/tt0369610" }
+    ],
+    type: "movie"
+  },
+  {
+    title: "Jurassic World: Fallen Kingdom",
+    poster_path: "https://www.themoviedb.org/t/p/w1280/hQQdOosCm3nc5CO5CmdLtaGJGmq.jpg",
+    description: "Three years after the demise of Jurassic World, a volcanic eruption is threatening the remaining dinosaurs on the isla Nublar, so Claire Dearing, the former park manager, recruits Owen Grady to help prevent the extinction of the dinosaurs once again.",
+    releaseDate: "June 22, 2018",
+    duration: "2h 8m",
+    rating: "6.6",
+    genre: "Action, Adventure, Sci-Fi",
+    director: "J.A. Bayona",
+    quality: "HD",
+    country: "United States",
+    cast: "Chris Pratt, Bryce Dallas Howard, Rafe Spall, Justice Smith, Daniella Pineda",
+    trailerImage: "https://image.tmdb.org/t/p/w780/3zYzziZ9UQukF7XZp01j8V6TJ3N.jpg",
+    videoUrl: "https://www.2embed.cc/embed/tt4881806",
+    servers: [
+      { name: "Default", url: "https://www.2embed.cc/embed/tt4881806" }
+    ],
+    type: "movie"
+  },
+  {
+    title: "Jurassic World: Dominion",
+    poster_path: "/kAVRgw7GgK1CfYEJq8ME6EvRIgU.jpg",
+    description: "Four years after Isla Nublar was destroyed, dinosaurs now live—and hunt—alongside humans all over the world. This fragile balance will reshape the future and determine, once and for all, whether human beings are to remain the apex predators ona planet they now share with history's most fearsome creatures.",
+    releaseDate: "June 10, 2022",
+    duration: "2h 27m",
+    rating: "5.8",
+    genre: "Action, Adventure, Sci-Fi",
+    director: "Colin Trevorrow",
+    quality: "HD",
+    country: "United States",
+    cast: "Chris Pratt, Bryce Dallas Howard, Laura Dern, Sam Neill, Jeff Goldblum, DeWanda Wise",
+    trailerImage: "https://image.tmdb.org/t/p/w780/kAVRgw7GgK1CfYEJq8ME6EvRIgU.jpg",
+    videoUrl: "https://www.2embed.cc/embed/tt8041270",
+    servers: [
+      { name: "Default", url: "https://www.2embed.cc/embed/tt8041270" }
+    ],
+    type: "movie"
+  },
+  {
+    title: "Jurassic World: Rebirth",
+    poster_path: "https://www.themoviedb.org/t/p/w1280/1RICxzeoNCAO5NpcRMIgg1XT6fm.jpg",
+    description: "Five years after the events of Jurassic World: Dominion, covert operations expert Zora Bennett is contracted to lead a skilled team on a top-secret mission to secure genetic material from the world's three most massive dinosaurs. When Zora's operation intersects with a civilian family whose boating expedition goes wrong, the team's mission becomes a desperate fight for survival against prehistoric predators.",
+    releaseDate: "July 2, 2025",
+    duration: "2h 13m",
+    rating: "5.9",
+    genre: "Action, Adventure, Sci-Fi",
+    director: "Gareth Edwards",
+    quality: "HD",
+    country: "United States",
+    cast: "Scarlett Johansson, Mahershala Ali, Jonathan Bailey, Rupert Friend, Manuel Garcia-Rulfo, Ed Skrein, Luna Blaise, Audrina Miranda",
+    trailerImage: "https://image.tmdb.org/t/p/w780/wJ0tXNqH9m7sjW6Jf0kJ9i1G.jpg",
+    videoUrl: "https://www.2embed.cc/embed/tt31036941",
+    servers: [
+      { name: "Default", url: "https://www.2embed.cc/embed/tt31036941" }
+    ],
+    type: "movie"
+  },
+  {
+    title: "The Amazing Spider-Man",
+    poster_path: "https://www.themoviedb.org/t/p/w1280/3zbb5XD0hEA8IpAcUmv1J9Rej3B.jpg",
+    description: "Peter Parker is an outcast high schooler abandoned by his parents as a boy, leaving him to be raised by his Uncle Ben and Aunt May. Like most teenagers, Peter is trying to figure out who he is and how he got to be the person he is today. As Peter discovers a mysterious briefcase that belonged to his father, he begins a quest to understand his parents' disappearance – leading him directly to Oscorp and the lab of Dr. Curt Connors, his father's former partner. As Spider-Man is set on a collision course with Connors' alter ego, The Lizard, Peter will make life-altering choices to use his powers and shape his destiny to become a hero.",
+    releaseDate: "July 3, 2012",
+    duration: "2h 16m",
+    rating: "6.9",
+    genre: "Action, Adventure, Sci-Fi",
+    director: "Marc Webb",
+    quality: "HD",
+    country: "United States",
+    cast: "Andrew Garfield, Emma Stone, Rhys Ifans, Denis Leary, Campbell Scott, Irrfan Khan, Martin Sheen",
+    trailerImage: "https://image.tmdb.org/t/p/w780/dw22WJj4Z0E5KVjaiFIOE5aqYRh.jpg",
+    videoUrl: "https://www.2embed.cc/embed/tt0948470",
+    servers: [
+      { name: "Default", url: "https://www.2embed.cc/embed/tt0948470" }
+    ],
+    type: "movie"
+  },
+  {
+    title: "Avatar: The Way of Water",
+    poster_path: "https://image.tmdb.org/t/p/w780/t6HIqrRAclMCA60NsSmeqe9RmNV.jpg",
+    description: "Set more than a decade after the events of the first film, learn the story of the Sully family (Jake, Neytiri, and their kids), the trouble that follows them, the lengths they go to keep each other safe, the battles they fight to stay alive, and the tragedies they endure.",
+    releaseDate: "December 16, 2022",
+    duration: "3h 12m",
+    rating: "7.6",
+    genre: "Action, Adventure, Fantasy, Sci-Fi",
+    director: "James Cameron",
+    quality: "HD",
+    country: "United States",
+    cast: "Sam Worthington, Zoe Saldaña, Sigourney Weaver, Stephen Lang, Michelle Rodriguez",
+    trailerImage: "https://image.tmdb.org/t/p/w780/t6HIqrRAclMCA60NsSmeqe9RmNV.jpg",
+    videoUrl: "https://www.2embed.cc/embed/tt1630029",
+    servers: [
+      { name: "Default", url: "https://www.2embed.cc/embed/tt1630029" }
+    ],
+    type: "movie"
+  },
+  {
+    title: "Batman Begins",
+    poster_path: "https://image.tmdb.org/t/p/w780/4MpN4kIEqUjW8OPtOQJXlTdHiJV.jpg",
+    description: "Driven by tragedy, billionaire Bruce Wayne dedicates his life to uncovering and defeating the corruption that plagues his home, Gotham City. Unable to work within the system, he instead creates a new identity, a symbol of fear for the criminal underworld - The Batman.",
+    releaseDate: "June 15, 2005",
+    duration: "2h 20m",
+    rating: "8.2",
+    genre: "Action, Crime, Drama",
+    director: "Christopher Nolan",
+    quality: "HD",
+    country: "United States",
+    cast: "Christian Bale, Michael Caine, Liam Neeson, Katie Holmes, Gary Oldman, Cillian Murphy",
+    trailerImage: "https://image.tmdb.org/t/p/w780/4MpN4kIEqUjW8OPtOQJXlTdHiJV.jpg",
+    videoUrl: "https://www.2embed.cc/embed/tt0372784",
+    servers: [
+      { name: "Default", url: "https://www.2embed.cc/embed/tt0372784" }
+    ],
+    type: "movie"
+  },
+  {
+    title: "Spider-Man",
+    poster_path: "https://www.themoviedb.org/t/p/w1280/gh4cZbhZxyTbgxQPxD0dOudNPTn.jpg",
+    description: "After being bitten by a genetically altered spider, nerdy high school student Peter Parker is endowed with amazing powers to become the Amazing superhero known as Spider-Man.",
+    releaseDate: "May 3, 2002",
+    duration: "2h 1m",
+    rating: "7.3",
+    genre: "Action, Sci-Fi",
+    director: "Sam Raimi",
+    quality: "HD",
+    country: "United States",
+    cast: "Tobey Maguire, Kirsten Dunst, Willem Dafoe, James Franco",
+    trailerImage: "https://www.themoviedb.org/t/p/w1280/gh4cZbhZxyTbgxQPxD0dOudNPTn.jpg",
+    videoUrl: "https://www.2embed.cc/embed/tt0145487",
+    servers: [
+      { name: "Default", url: "https://www.2embed.cc/embed/tt0145487" }
+    ],
+    type: "movie"
+  },
+
+  {
+    title: "Spider-Man 2",
+    poster_path: "https://www.themoviedb.org/t/p/w1280/aGuvNAaaZuWXYQQ6N2v7DeuP6mB.jpg",
+    description: "Peter Parker is going through a major identity crisis. Burned out from being Spider-Man, he decides to shelve his superhero alter ego, which leaves the city suffering in the wake of carnage left by the evil Doc Ock.",
+    releaseDate: "June 30, 2004",
+    duration: "2h 7m",
+    rating: "7.4",
+    genre: "Action, Adventure, Sci-Fi",
+    director: "Sam Raimi",
+    quality: "HD",
+    country: "United States",
+    cast: "Tobey Maguire, Kirsten Dunst, Alfred Molina, James Franco",
+    trailerImage: "https://www.themoviedb.org/t/p/w1280/aGuvNAaaZuWXYQQ6N2v7DeuP6mB.jpg",
+    videoUrl: "https://www.2embed.cc/embed/tt0316654",
+    servers: [
+      { name: "Default", url: "https://www.2embed.cc/embed/tt0316654" }
+    ],
+    type: "movie"
+  },
+
+  {
+    title: "Spider-Man 3",
+    poster_path: "https://www.themoviedb.org/t/p/w1280/qFmwhVUoUSXjkKRmca5yGDEXBIj.jpg",
+    description: "The seemingly invincible Spider-Man goes up against an all-new crop of villains—including the shape-shifting Sandman. While Spider-Man’s superpowers are altered by an alien organism, his alter ego, Peter Parker, deals with nemesis Eddie Brock and also gets caught up in a love triangle.",
+    releaseDate: "May 4, 2007",
+    duration: "2h 19m",
+    rating: "6.2",
+    genre: "Action, Adventure, Sci-Fi",
+    director: "Sam Raimi",
+    quality: "HD",
+    country: "United States",
+    cast: "Tobey Maguire, Kirsten Dunst, Topher Grace, Thomas Haden Church, James Franco",
+    trailerImage: "https://www.themoviedb.org/t/p/w1280/qFmwhVUoUSXjkKRmca5yGDEXBIj.jpg",
+    videoUrl: "https://www.2embed.cc/embed/tt0413300",
+    servers: [
+      { name: "Default", url: "https://www.2embed.cc/embed/tt0413300" }
+    ],
+    type: "movie"
+  },
+  {
+    title: "The Amazing Spider-Man 2",
+    poster_path: "https://www.themoviedb.org/t/p/w1280/c3e9e18SSlvFd1cQaGmUj5tqL5P.jpg",
+    description: "For Peter Parker, life is busy. Between taking out the bad guys as Spider-Man and spending time with the person he loves, Gwen Stacy, high school graduation cannot come quickly enough. Peter has not forgotten about the promise he made to Gwen’s father to protect her by staying away, but that is a promise he cannot keep. Things will change for Peter when a new villain, Electro, emerges, an old friend, Harry Osborn, returns, and Peter uncovers new clues about his past.",
+    releaseDate: "May 2, 2014",
+    duration: "2h 21m",
+    rating: "6.6",
+    genre: "Action, Adventure, Sci-Fi",
+    director: "Marc Webb",
+    quality: "HD",
+    country: "United States",
+    cast: "Andrew Garfield, Emma Stone, Jamie Foxx, Dane DeHaan, Campbell Scott, Embeth Davidtz, Colm Feore",
+    trailerImage: "https://image.tmdb.org/t/p/w780/c3e9e18SSlvFd1cQaGmUj5tqL5I.jpg",
+    videoUrl: "https://www.2embed.cc/embed/tt1872181",
+    servers: [
+      { name: "Default", url: "https://www.2embed.cc/embed/tt1872181" }
+    ],
+    type: "movie"
+  },
+  {
+    title: "Venom",
+    poster_path: "https://image.tmdb.org/t/p/w780/2uNW4WbgBXL25BAbXGLnLqX71Sw.jpg",
+    description: "Eddie Brock is a reporter investigating a corrupt CEO, Carlton Drake, who is developing a dangerous symbiote. When Eddie gets infected by the symbiote, he becomes Venom, a powerful anti-hero fighting to protect the world from worse threats.",
+    releaseDate: "October 5, 2018",
+    duration: "1h 52m",
+    rating: "6.7",
+    genre: "Action, Sci-Fi, Thriller",
+    director: "Ruben Fleischer",
+    quality: "HD",
+    country: "United States",
+    cast: "Tom Hardy, Michelle Williams, Riz Ahmed, Scott Haze, Reid Scott",
+    trailerImage: "https://image.tmdb.org/t/p/w780/2uNW4WbgBXL25BAbXGLnLqX71Sw.jpg",
+    videoUrl: "https://www.2embed.cc/embed/tt1270797",
+    servers: [
+      { name: "Default", url: "https://www.2embed.cc/embed/tt1270797" }
+    ],
+    type: "movie"
+  },
+  {
+    title: "Venom: Let There Be Carnage",
+    poster_path: "https://www.themoviedb.org/t/p/w1280/dZa00JxrwBL2oePDqcwwlJfM8qJ.jpg",
+    description: "Eddie Brock struggles to control Venom, while a serial killer named Cletus Kasady becomes Carnage, forcing Eddie and Venom to team up to stop the chaos.",
+    releaseDate: "October 1, 2021",
+    duration: "1h 37m",
+    rating: "5.9",
+    genre: "Action, Adventure, Sci-Fi, Thriller",
+    director: "Andy Serkis",
+    quality: "HD",
+    country: "United States",
+    cast: "Tom Hardy, Woody Harrelson, Michelle Williams, Naomie Harris, Reid Scott, Stephen Graham",
+    trailerImage: "https://image.tmdb.org/t/p/w780/rjN9W2Kstqzbk4XkOdZU0jK5xJG.jpg",
+    videoUrl: "https://www.2embed.cc/embed/tt7097896",
+    servers: [
+      { name: "Default", url: "https://www.2embed.cc/embed/tt7097896" }
+    ],
+    type: "movie"
+  },
+  {
+    title: "Venom: The Last Dance",
+    poster_path: "https://image.tmdb.org/t/p/w780/k42Owka8v91trK1qMYwCQCNwJKr.jpg",
+    description: "Eddie and Venom are hunted by the government and must escape to a distant planet, but they face new threats.",
+    releaseDate: "October 25, 2024",
+    duration: "1h 49m",
+    rating: "6.1",
+    genre: "Action, Adventure, Sci-Fi, Thriller",
+    director: "Kelly Marcel",
+    quality: "HD",
+    country: "United States",
+    cast: "Tom Hardy, Chiwetel Ejiofor, Juno Temple, Rhys Ifans, Stephen Graham, Alanna Ubach, Peggy Lu, Clark Middleton",
+    trailerImage: "https://image.tmdb.org/t/p/w780/k42Owka8v91trK1qMYwCQCNwJKr.jpg",
+    videoUrl: "https://www.2embed.cc/embed/tt16366836",
+    servers: [
+      { name: "Default", url: "https://www.2embed.cc/embed/tt16366836" }
+    ],
+    type: "movie"
+  },
+  {
+    title: "The Matrix Reloaded",
+    poster_path: "https://www.themoviedb.org/t/p/w1280/aA5qHS0FbSXO8PxcxUIHbDrJyuh.jpg",
+    description: "Six months after the events depicted in The Matrix, Neo has proved to be a good omen for the free humans, as more and more humans are being freed from the matrix and brought to Zion, the one and only stronghold of the Resistance. Neo himself has discovered his superpowers including super speed, ability to see the codes of the things inside the matrix and a certain degree of pre-cognition. But a nasty piece of news hits the human resistance: 250,000 machine sentinels are digging to Zion and would reach them in 72 hours. As Zion prepares for the ultimate war, Neo, Morpheus and Trinity are advised by the Oracle to find the Keymaker who would help them reach the Source. Meanwhile Neo's recurrent dreams depicting Trinity's death have got him worried and as if it was not enough, Agent Smith has somehow escaped deletion, has become more powerful than before and has fixed Neo as his next target.",
+    releaseDate: "May 15, 2003",
+    duration: "2h 18m",
+    rating: "7.2",
+    genre: "Action, Sci-Fi",
+    director: "The Wachowskis",
+    quality: "HD",
+    country: "United States",
+    cast: "Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving, Jada Pinkett Smith, Monica Bellucci, Lambert Wilson, Anthony Zerbe, Nona Gaye",
+    trailerImage: "https://image.tmdb.org/t/p/w780/bV9qTVHTVfH2RK8BG7K0CPNq15W.jpg",
+    videoUrl: "https://www.2embed.cc/embed/tt0234215",
+    servers: [
+      { name: "Default", url: "https://www.2embed.cc/embed/tt0234215" }
+    ],
+    type: "movie"
+  },
+  {
+    title: "The Matrix Revolutions",
+    poster_path: "https://www.themoviedb.org/t/p/w1280/ynMQ4nVwkoP2gLxXXDgcdltihTD.jpg",
+    description: "The human city of Zion defends itself against the massive invasion of the machines as Neo fights to end the war at another front while also opposing the rogue Agent Smith.",
+    releaseDate: "November 5, 2003",
+    duration: "2h 9m",
+    rating: "6.7",
+    genre: "Action, Sci-Fi",
+    director: "The Wachowskis",
+    quality: "HD",
+    country: "United States",
+    cast: "Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving, Jada Pinkett Smith, Monica Bellucci, Harry Lennix, Lambert Wilson, Anthony Zerbe",
+    trailerImage: "https://image.tmdb.org/t/p/w780/fNGPd6c6i9JpqE8q9PP8qUwcMmO.jpg",
+    videoUrl: "https://www.2embed.cc/embed/tt0242653",
+    servers: [
+      { name: "Default", url: "https://www.2embed.cc/embed/tt0242653" }
+    ],
+    type: "movie"
+  },
+  {
+    title: "The Matrix Resurrections",
+    poster_path: "https://image.tmdb.org/t/p/w780/8c4a8kE7PizaGQQnditMmI1xbRp.jpg",
+    description: "Plagued by strange memories, Neo's life takes an unexpected turn when he finds himself back inside the Matrix.",
+    releaseDate: "December 22, 2021",
+    duration: "2h 28m",
+    rating: "5.7",
+    genre: "Action, Sci-Fi",
+    director: "Lana Wachowski",
+    quality: "HD",
+    country: "United States",
+    cast: "Keanu Reeves, Carrie-Anne Moss, Yahya Abdul-Mateen II, Jonathan Groff, Jessica Henwick, Neil Patrick Harris, Priyanka Chopra, Christina Ricci, Jada Pinkett Smith",
+    trailerImage: "https://image.tmdb.org/t/p/w780/8c4a8kE7PizaGQQnditMmI1xbRp.jpg",
+    videoUrl: "https://www.2embed.cc/embed/tt10838180",
+    servers: [
+      { name: "Default", url: "https://www.2embed.cc/embed/tt10838180" }
+    ],
+    type: "movie"
+  },
+  {
+    title: "John Wick",
+    poster_path: "https://image.tmdb.org/t/p/w780/fZPSd91yGE9fCcCe6OoQr6E3Bev.jpg",
+    description: "Ex-hitman John Wick comes out of retirement to track down the gangsters that took everything from him.",
+    releaseDate: "October 24, 2014",
+    duration: "1h 41m",
+    rating: "7.4",
+    genre: "Action, Crime, Thriller",
+    director: "Chad Stahelski",
+    quality: "HD",
+    country: "United States",
+    cast: "Keanu Reeves, Michael Nyqvist, Alfie Allen, Willem Dafoe, Dean Winters, Adrianne Palicki, Omer Barnea, Toby Leonard Moore, John Leguizamo",
+    trailerImage: "https://image.tmdb.org/t/p/w780/fZPSd91yGE9fCcCe6OoQr6E3Bev.jpg",
+    videoUrl: "https://www.2embed.cc/embed/tt2911666",
+    servers: [
+      { name: "Default", url: "https://www.2embed.cc/embed/tt2911666" }
+    ],
+    type: "movie"
+  },
+  {
+    title: "John Wick: Chapter 2",
+    poster_path: "https://www.themoviedb.org/t/p/w1280/hXWBc0ioZP3cN4zCu6SN3YHXZVO.jpg",
+    description: "John Wick is forced out of retirement by a former associate looking to seize control of a shadowy international assassins’ guild. Bound by a blood oath to help him, John travels to Rome where he squares off against some of the world’s deadliest killers.",
+    releaseDate: "February 10, 2017",
+    duration: "2h 2m",
+    rating: "7.5",
+    genre: "Action, Crime, Thriller",
+    director: "Chad Stahelski",
+    quality: "HD",
+    country: "United States",
+    cast: "Keanu Reeves, Riccardo Scamarcio, Ian McShane, Ruby Rose, Common, Claudia Gerini, Lance Reddick, Laurence Fishburne, John Leguizamo, Bridget Moynahan",
+    trailerImage: "https://image.tmdb.org/t/p/w780/hXGMi1FgqWk4u4xIXYxrKjA0Wt.jpg",
+    videoUrl: "https://www.2embed.cc/embed/tt4425200",
+    servers: [
+      { name: "Default", url: "https://www.2embed.cc/embed/tt4425200" }
+    ],
+    type: "movie"
+  },
+  {
+    title: "John Wick: Chapter 3 – Parabellum",
+    poster_path: "https://image.tmdb.org/t/p/w780/ziEuG1essDuWuC5lpWUaw1uXY2O.jpg",
+    description: "Super-assassin John Wick returns with a $14 million price tag on his head and an army of bounty-hunting killers on his trail. After killing a member of the shadowy international assassin’s guild, the High Table, John Wick is excommunicado, but the world’s most ruthless hit men and women await his every turn.",
+    releaseDate: "May 17, 2019",
+    duration: "2h 11m",
+    rating: "7.4",
+    genre: "Action, Crime, Thriller",
+    director: "Chad Stahelski",
+    quality: "HD",
+    country: "United States",
+    cast: "Keanu Reeves, Halle Berry, Laurence Fishburne, Mark Dacascos, Asia Kate Dillon, Lance Reddick, Anjelica Huston, Saïd Taghmaoui, Jerome Flynn, Randall Duk Kim",
+    trailerImage: "https://image.tmdb.org/t/p/w780/ziEuG1essDuWuC5lpWUaw1uXY2O.jpg",
+    videoUrl: "https://www.2embed.cc/embed/tt6146586",
+    servers: [
+      { name: "Default", url: "https://www.2embed.cc/embed/tt6146586" }
+    ],
+    type: "movie"
+  },
+  {
+    title: "John Wick: Chapter 4",
+    poster_path: "https://image.tmdb.org/t/p/w780/vZloFAK7NmvMGKE7VkF5UHaz0I.jpg",
+    description: "With the price on his head ever increasing, John Wick uncovers a path to defeating The High Table. But before he can earn his freedom, Wick must face off against a new enemy with powerful alliances across the globe and forces that turn old friends into foes.",
+    releaseDate: "March 24, 2023",
+    duration: "2h 49m",
+    rating: "7.7",
+    genre: "Action, Crime, Thriller",
+    director: "Chad Stahelski",
+    quality: "HD",
+    country: "United States",
+    cast: "Keanu Reeves, Laurence Fishburne, George Georgiou, Lance Reddick, Clancy Brown, Hiroyuki Sanada, Donnie Yen, Bill Skarsgård, Scott Adkins, Shamier Anderson",
+    trailerImage: "https://image.tmdb.org/t/p/w780/vZloFAK7NmvMGKE7VkF5UHaz0I.jpg",
+    videoUrl: "https://www.2embed.cc/embed/tt10366206",
+    servers: [
+      { name: "Default", url: "https://www.2embed.cc/embed/tt10366206" }
+    ],
+    type: "movie"
+  },
+  {
+    title: "Ballerina",
+    poster_path: "https://www.themoviedb.org/t/p/w1280/2VUmvqsHb6cEtdfscEA6fqqVzLg.jpg",
+    description: "Grieving the loss of a best friend she couldn't protect, an ex-bodyguard sets out to fulfill her dear friend's final wish: sweet revenge.",
+    releaseDate: "October 4, 2024",
+    duration: "1h 40m",
+    rating: "6.8",
+    genre: "Action, Thriller",
+    director: "Lenore K. Zukerman",
+    quality: "HD",
+    country: "United States",
+    cast: "Ana de Armas, Keanu Reeves, Antonio Banderas, Caterina Murino, Gabriel Byrne",
+    trailerImage: "https://image.tmdb.org/t/p/w780/mL2f9Q0T0MjM5pV1z6YhQK9j2o.jpg",
+    videoUrl: "https://www.2embed.cc/embed/tt7181546",
+    servers: [
+      { name: "Default", url: "https://www.2embed.cc/embed/tt7181546" },
+      { name: "VSRCC", url: "https://player4u.xyz/embed?key=tt7181546&server=vsrcc" }
+    ],
+    type: "movie"
+  },
+  {
+    title: "Fantastic Four",
+    poster_path: "https://www.themoviedb.org/t/p/w1280/4YMcYEFS8sFuW3soP1HVmgR3cSm.jpg",
+    description: "During a space voyage, four young astronauts who are facing certain death, decide to experiment with the mysterious substance that powers their ship. Upon returning to Earth, they discover that they have developed extraordinary powers.",
+    releaseDate: "July 8, 2005",
+    duration: "1h 46m",
+    rating: "5.8",
+    genre: "Action, Adventure, Fantasy, Sci-Fi",
+    director: "Tim Story",
+    quality: "HD",
+    country: "United States",
+    cast: "Ioan Gruffudd, Jessica Alba, Chris Evans, Michael Chiklis, Julian McMahon, Kerry Washington",
+    trailerImage: "https://image.tmdb.org/t/p/w780/8HLQLILZLhDQWO6JDjhdpFHrT6.jpg",
+    videoUrl: "https://www.2embed.cc/embed/tt0120667",
+    servers: [
+      { name: "Default", url: "https://www.2embed.cc/embed/tt0120667" },
+      { name: "VSRCC", url: "https://player4u.xyz/embed?key=tt0120667&server=vsrcc" }
+    ],
+    type: "movie"
+  },
+
+  {
+    title: "Fantastic Four: Rise of the Silver Surfer",
+    poster_path: "https://www.themoviedb.org/t/p/w1280/uZnnyZTN2loRDvuXrf5UW6hykBW.jpg",
+    description: "The Fantastic Four learn that they aren't the only super-powered beings in the universe when they square off against the powerful Silver Surfer and the planet-eating Galactus, destroying worlds in the wake of his energy trail.",
+    releaseDate: "June 15, 2007",
+    duration: "1h 32m",
+    rating: "5.6",
+    genre: "Action, Adventure, Fantasy, Sci-Fi",
+    director: "Tim Story",
+    quality: "HD",
+    country: "United States",
+    cast: "Ioan Gruffudd, Jessica Alba, Chris Evans, Michael Chiklis, Julian McMahon, Kerry Washington, Doug Jones",
+    trailerImage: "https://image.tmdb.org/t/p/w780/f8Qz2JIdQ9X4fDTh9U0oKwzY8r.jpg",
+    videoUrl: "https://www.2embed.cc/embed/tt0486576",
+    servers: [
+      { name: "Default", url: "https://www.2embed.cc/embed/tt0486576" },
+      { name: "VSRCC", url: "https://player4u.xyz/embed?key=tt0486576&server=vsrcc" }
+    ],
+    type: "movie"
+  },
+
+  {
+    title: "Planet of the Apes",
+    poster_path: "https://www.themoviedb.org/t/p/w1280/2IZcJHsTugOdyg0Y8ejj4CM2X3a.jpg",
+    description: "After a spectacular crash-landing on an uncharted planet, brash astronaut Leo Davidson finds himself trapped in a savage world where talking apes dominate the human race. Desperate to find a way home, Leo must evade the invincible gorilla army led by ruthless General Thade.",
+    releaseDate: "July 27, 2001",
+    duration: "1h 59m",
+    rating: "5.7",
+    genre: "Action, Adventure, Sci-Fi",
+    director: "Tim Burton",
+    quality: "HD",
+    country: "United States",
+    cast: "Mark Wahlberg, Tim Roth, Helena Bonham Carter, Michael Clarke Duncan, Paul Giamatti, Estella Warren",
+    trailerImage: "https://image.tmdb.org/t/p/w780/2EUAq2D8pUTzLckbJcXaGp7lKiV.jpg",
+    videoUrl: "https://www.2embed.cc/embed/tt0133152",
+    servers: [
+      { name: "Default", url: "https://www.2embed.cc/embed/tt0133152" },
+      { name: "VSRCC", url: "https://player4u.xyz/embed?key=tt0133152&server=vsrcc" }
+    ],
+    type: "movie"
+  },
+
+  {
+    title: "Rise of the Planet of the Apes",
+    poster_path: "https://www.themoviedb.org/t/p/w1280/cjLsuP75UDlRdJVMXzXg3TJ4umX.jpg",
+    description: "A substance designed to help the brain repair itself gives advanced intelligence to a chimpanzee who leads an ape uprising.",
+    releaseDate: "August 5, 2011",
+    duration: "1h 45m",
+    rating: "7.6",
+    genre: "Action, Drama, Sci-Fi",
+    director: "Rupert Wyatt",
+    quality: "HD",
+    country: "United States",
+    cast: "James Franco, Andy Serkis, Freida Pinto, Karin Konoval, Terry Notary, Richard Ridings",
+    trailerImage: "https://image.tmdb.org/t/p/w780/qjQ8R3lkRtVOPHvEZ1GSXcEK0q8.jpg",
+    videoUrl: "https://www.2embed.cc/embed/tt1318514",
+    servers: [
+      { name: "Default", url: "https://www.2embed.cc/embed/tt1318514" },
+      { name: "VSRCC", url: "https://player4u.xyz/embed?key=tt1318514&server=vsrcc" }
+    ],
+    type: "movie"
+  },
+
+  {
+    title: "Dawn of the Planet of the Apes",
+    poster_path: "https://www.themoviedb.org/t/p/w1280/kScdQEwS9jPEdnO23XjGAtaoRcT.jpg",
+    description: "A group of scientists in San Francisco struggle to stay alive in the aftermath of a plague that is wiping out humanity, while Caesar tries to maintain dominance over his community of intelligent apes.",
+    releaseDate: "July 11, 2014",
+    duration: "2h 10m",
+    rating: "7.6",
+    genre: "Action, Adventure, Drama, Sci-Fi",
+    director: "Matt Reeves",
+    quality: "HD",
+    country: "United States",
+    cast: "Gary Oldman, Keri Russell, Andy Serkis, Kodi Smit-McPhee, Kirk Acevedo, Nick Thurston",
+    trailerImage: "https://image.tmdb.org/t/p/w780/3vQr3PIJbdVVM4u7HvYyBjRZRtZ.jpg",
+    videoUrl: "https://www.2embed.cc/embed/tt2103281",
+    servers: [
+      { name: "Default", url: "https://www.2embed.cc/embed/tt2103281" },
+      { name: "VSRCC", url: "https://player4u.xyz/embed?key=tt2103281&server=vsrcc" }
+    ],
+    type: "movie"
+  },
+
+  {
+    title: "War for the Planet of the Apes",
+    poster_path: "https://www.themoviedb.org/t/p/w1280/3vYhLLxrTtZLysXtIWktmd57Snv.jpg",
+    description: "Caesar and his apes are forced into a deadly conflict with an army of humans led by a ruthless Colonel. After the apes suffer unimaginable losses, Caesar wrestles with his darker instincts and begins his own mythic quest to avenge his kind.",
+    releaseDate: "July 14, 2017",
+    duration: "2h 20m",
+    rating: "7.4",
+    genre: "Action, Adventure, Drama, Sci-Fi",
+    director: "Matt Reeves",
+    quality: "HD",
+    country: "United States",
+    cast: "Andy Serkis, Woody Harrelson, Steve Zahn, Karin Konoval, Amiah Miller, Terry Notary",
+    trailerImage: "https://image.tmdb.org/t/p/w780/ijd8fhdL27mheX56XWqWXKyTJEK.jpg",
+    videoUrl: "https://www.2embed.cc/embed/tt3450958",
+    servers: [
+      { name: "Default", url: "https://www.2embed.cc/embed/tt3450958" },
+      { name: "VSRCC", url: "https://player4u.xyz/embed?key=tt3450958&server=vsrcc" }
+    ],
+    type: "movie"
+  },
+
+  {
+    title: "Kingdom of the Planet of the Apes",
+    poster_path: "https://www.themoviedb.org/t/p/w1280/jHV0bDiAqzzgtoHiJ03LhBPB05o.jpg",
+    description: "Many years after the reign of Caesar, a young ape goes on a journey that will lead him to question everything he's been taught about the past and make choices that will define a future for apes and humans alike.",
+    releaseDate: "May 10, 2024",
+    duration: "2h 25m",
+    rating: "6.9",
+    genre: "Action, Sci-Fi",
+    director: "Wes Ball",
+    quality: "HD",
+    country: "United States",
+    cast: "Owen Teague, Freya Allan, Kevin Durand, Peter Macon, William H. Macy, Neil Sandilands",
+    trailerImage: "https://image.tmdb.org/t/p/w780/dq767ha3SmBva9L6XC6RFyQXUhR.jpg",
+    videoUrl: "https://www.2embed.cc/embed/tt11389872",
+    servers: [
+      { name: "Default", url: "https://www.2embed.cc/embed/tt11389872" },
+      { name: "VSRCC", url: "https://player4u.xyz/embed?key=tt11389872&server=vsrcc" }
+    ],
+    type: "movie"
+  },
+
+  {
+    title: "Titanic",
+    poster_path: "https://image.tmdb.org/t/p/w780/9xjZS2rlVxm8SFx8kPC3aIGCOYQ.jpg",
+    description: "101-year-old Rose DeWitt Bukater tells the story of her life aboard the Titanic, 84 years later. A young Rose boards the ship with her mother and fiancé. Meanwhile, Jack Dawson and Fabrizio De Rossi win third-class tickets aboard the ship. Rose tells the whole story from Titanic's departure through to its death—on its first and last voyage—on April 15, 1912.",
+    releaseDate: "December 19, 1997",
+    duration: "3h 14m",
+    rating: "7.9",
+    genre: "Drama, Romance",
+    director: "James Cameron",
+    quality: "HD",
+    country: "United States",
+    cast: "Leonardo DiCaprio, Kate Winslet, Billy Zane, Kathy Bates, Frances Fisher, Bernard Hill, Jonathan Hyde, Danny Nucci, David Warner, Bill Paxton",
+    trailerImage: "https://image.tmdb.org/t/p/w780/9xjZS2rlVxm8SFx8kPC3aIGCOYQ.jpg",
+    videoUrl: "https://www.2embed.cc/embed/tt0120338",
+    servers: [
+      { name: "Default", url: "https://www.2embed.cc/embed/tt0120338" },
+      { name: "VSRCC", url: "https://player4u.xyz/embed?key=tt0120338&server=vsrcc" }
+    ],
+    type: "movie"
+  },
+
+  {
+    title: "Following",
+    poster_path: "https://image.tmdb.org/t/p/original/3bX6VVSMf0dvzk5pMT4ALG5A92d.jpg",
+    description: "A young writer who follows strangers for material meets a thief who intrigues him, and his life takes a strange turn.",
+    releaseDate: "April 2, 1998",
+    duration: "1h 9m",
+    rating: "7.4",
+    genre: "Crime, Mystery, Thriller",
+    director: "Christopher Nolan",
+    quality: "HD",
+    country: "United Kingdom",
+    cast: "Jeremy Theobald, Alex Haw, Lucy Russell, John Nolan",
+    trailerImage: "https://image.tmdb.org/t/p/w780/hFpLfQWyM6M8B4jLYFOWOC5QU7.jpg",
+    videoUrl: "https://www.2embed.cc/embed/tt0154506",
+    servers: [
+      { name: "Default", url: "https://www.2embed.cc/embed/tt0154506" }
+    ],
+    type: "movie"
+  },
+
+  {
+    title: "Memento",
+    poster_path: "https://www.themoviedb.org/t/p/w1280/9omLgbOfvZRhnH3m9iatkmvy6i.jpg",
+    description: "A man with short-term memory loss attempts to track down his wife's murderer.",
+    releaseDate: "October 11, 2000",
+    duration: "1h 53m",
+    rating: "8.4",
+    genre: "Mystery, Thriller",
+    director: "Christopher Nolan",
+    quality: "HD",
+    country: "United States",
+    cast: "Guy Pearce, Carrie-Anne Moss, Joe Pantoliano, Mark Boone Junior, Russ Fega, Jorja Fox, Stephen Tobolowsky",
+    trailerImage: "https://image.tmdb.org/t/p/w780/yuNs09hvpHVU1cBTCAkBp3gZmwa.jpg",
+    videoUrl: "https://www.2embed.cc/embed/tt0209144",
+    servers: [
+      { name: "Default", url: "https://www.2embed.cc/embed/tt0209144" }
+    ],
+    type: "movie"
+  },
+
+  {
+    title: "Insomnia",
+    poster_path: "https://www.themoviedb.org/t/p/w1280/gjHergpHMkxtgpSr8fTbasVmXDS.jpg",
+    description: "Two Los Angeles homicide detectives are dispatched to a northern town where the sun doesn't set to investigate the methodical murder of a local teen.",
+    releaseDate: "May 24, 2002",
+    duration: "1h 58m",
+    rating: "7.2",
+    genre: "Crime, Drama, Mystery, Thriller",
+    director: "Christopher Nolan",
+    quality: "HD",
+    country: "United States",
+    cast: "Al Pacino, Robin Williams, Hilary Swank, Maura Tierney, Martin Donovan, Nicky Katt",
+    trailerImage: "https://image.tmdb.org/t/p/w780/9sPWLJPp9i7gg3qU6oOD6KzB8rL.jpg",
+    videoUrl: "https://www.2embed.cc/embed/tt0278504",
+    servers: [
+      { name: "Default", url: "https://www.2embed.cc/embed/tt0278504" }
+    ],
+    type: "movie"
+  },
+
+  {
+    title: "The Prestige",
+    poster_path: "https://www.themoviedb.org/t/p/w1280/2ZOzyhoW08neG27DVySMCcq2emd.jpg",
+    description: "After a tragic accident, two stage magicians in 1890s London engage in a battle to create the ultimate illusion while sacrificing everything they have to outwit each other.",
+    releaseDate: "October 20, 2006",
+    duration: "2h 10m",
+    rating: "8.5",
+    genre: "Drama, Mystery, Sci-Fi, Thriller",
+    director: "Christopher Nolan",
+    quality: "HD",
+    country: "United States",
+    cast: "Christian Bale, Hugh Jackman, Scarlett Johansson, Michael Caine, Piper Perabo, Rebecca Hall",
+    trailerImage: "https://image.tmdb.org/t/p/w780/tRNlZbgNCNOpLpbPEz5L8G8cWI0.jpg",
+    videoUrl: "https://www.2embed.cc/embed/tt0482571",
+    servers: [
+      { name: "Default", url: "https://www.2embed.cc/embed/tt0482571" }
+    ],
+    type: "movie"
+  },
+
+  {
+    title: "Dunkirk",
+    poster_path: "https://www.themoviedb.org/t/p/w1280/b4Oe15CGLL61Ped0RAS9JpqdmCt.jpg",
+    description: "Allied soldiers from Belgium, the British Empire, and France are surrounded by the German army and evacuated during a fierce battle in World War II.",
+    releaseDate: "July 21, 2017",
+    duration: "1h 46m",
+    rating: "7.8",
+    genre: "Action, Drama, History, Thriller, War",
+    director: "Christopher Nolan",
+    quality: "HD",
+    country: "United Kingdom",
+    cast: "Fionn Whitehead, Barry Keoghan, Mark Rylance, Tom Hardy, Cillian Murphy, Kenneth Branagh",
+    trailerImage: "https://image.tmdb.org/t/p/w780/ebSnODDg9lbsMIaWg2uAbqM2KqM.jpg",
+    videoUrl: "https://www.2embed.cc/embed/tt5013056",
+    servers: [
+      { name: "Default", url: "https://www.2embed.cc/embed/tt5013056" }
+    ],
+    type: "movie"
+  },
+
+  {
+    title: "Tenet",
+    poster_path: "https://image.tmdb.org/t/p/w780/k68nPLbIST6NP96JmTxmZijEvCA.jpg",
+    description: "Armed with only one word - Tenet - and fighting for the survival of the entire world, the Protagonist journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time.",
+    releaseDate: "September 3, 2020",
+    duration: "2h 30m",
+    rating: "7.3",
+    genre: "Action, Sci-Fi, Thriller",
+    director: "Christopher Nolan",
+    quality: "HD",
+    country: "United Kingdom",
+    cast: "John David Washington, Robert Pattinson, Elizabeth Debicki, Juhan Ulfsak, Andrew Howard, Dimple Kapadia, Aaron Taylor-Johnson",
+    trailerImage: "https://image.tmdb.org/t/p/w780/k68nPLbIST6NP96JmTxmZijEvCA.jpg",
+    videoUrl: "https://www.2embed.cc/embed/tt6723592",
+    servers: [
+      { name: "Default", url: "https://www.2embed.cc/embed/tt6723592" }
+    ],
+    type: "movie"
+  },
+
+  {
+    title: "Oppenheimer",
+    poster_path: "https://image.tmdb.org/t/p/w780/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
+    description: "The story of J. Robert Oppenheimer's role in the development of the atomic bomb during World War II.",
+    releaseDate: "July 21, 2023",
+    duration: "3h",
+    rating: "8.3",
+    genre: "Biography, Drama, History",
+    director: "Christopher Nolan",
+    quality: "HD",
+    country: "United States",
+    cast: "Cillian Murphy, Emily Blunt, Matt Damon, Robert Downey Jr., Florence Pugh, Josh Hartnett, Casey Affleck, Rami Malek",
+    trailerImage: "https://image.tmdb.org/t/p/w780/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
+    videoUrl: "https://www.2embed.cc/embed/tt15398776",
+    servers: [
+      { name: "Default", url: "https://www.2embed.cc/embed/tt15398776" }
+    ],
+    type: "movie"
+  },
+
+  {
+    title: "28 Days Later",
+    poster_path: "https://www.themoviedb.org/t/p/w1280/w4SL5hv0qOanrN7GjwNgtjF1RtD.jpg",
+    description: "Twenty-eight days after a killer virus was accidentally unleashed from a British research facility, a small group of London survivors are caught in a desperate struggle to protect themselves from the infected. Carried by animals and humans, the virus turns those it infects into homicidal maniacs -- and it's absolutely impossible to contain.",
+    releaseDate: "November 1, 2002",
+    duration: "1h 53m",
+    rating: "7.6",
+    genre: "Horror, Sci-Fi, Thriller",
+    director: "Danny Boyle",
+    quality: "HD",
+    country: "United Kingdom",
+    cast: "Cillian Murphy, Naomie Harris, Christopher Eccleston, Megan Burns, Brendan Gleeson",
+    trailerImage: "https://image.tmdb.org/t/p/w780/sx9P7yQXEWRqjNx7JNQXnHklrjL.jpg",
+    videoUrl: "https://www.2embed.cc/embed/tt0289043",
+    servers: [
+      { name: "Default", url: "https://www.2embed.cc/embed/tt0289043" }
+    ],
+    type: "movie"
+  },
+
+  {
+    title: "Empire of the Sun",
+    poster_path: "https://www.themoviedb.org/t/p/w1280/gEaCzjwHoPgyQFcwHql7o5YLHAU.jpg",
+    description: "Jamie Graham, a privileged English boy, is living in Shanghai when the Japanese invade and force all foreigners into prison camps. Jamie is captured with an American sailor, who looks out for him while they are in the camp together. Even though he is separated from his parents and in a hostile environment, Jamie maintains his dignity and youthful spirit, providing a beacon of hope for the others held captive with him.",
+    releaseDate: "December 25, 1987",
+    duration: "2h 33m",
+    rating: "7.5",
+    genre: "Drama, History, War",
+    director: "Steven Spielberg",
+    quality: "HD",
+    country: "United States",
+    cast: "Christian Bale, John Malkovich, Miranda Richardson, Nigel Havers, Joe Pantoliano",
+    trailerImage: "https://image.tmdb.org/t/p/w780/7L4iJHJBg5yp2jfn9V5QPF2fWX.jpg",
+    videoUrl: "https://www.2embed.cc/embed/tt0092965",
+    servers: [
+      { name: "Default", url: "https://www.2embed.cc/embed/tt0092965" }
+    ],
+    type: "movie"
+  },
+
+  {
+    title: "American Psycho",
+    poster_path: "https://www.themoviedb.org/t/p/w1280/d3U7k4hBYgFW7pv4hXUVwkMvum0.jpg",
+    description: "A wealthy New York City investment banking executive, Patrick Bateman, hides his alternate psychopathic ego from his co-workers and friends as he delves deeper into his violent, hedonistic fantasies.",
+    releaseDate: "April 14, 2000",
+    duration: "1h 42m",
+    rating: "7.6",
+    genre: "Crime, Drama, Horror",
+    director: "Mary Harron",
+    quality: "HD",
+    country: "United States",
+    cast: "Christian Bale, Justin Theroux, Josh Lucas, Bill Sage, Chloë Sevigny",
+    trailerImage: "https://image.tmdb.org/t/p/w780/6eYbp3xU9P7Bq8WqrR7PUo9W2lQ.jpg",
+    videoUrl: "https://www.2embed.cc/embed/tt0144084",
+    servers: [
+      { name: "Default", url: "https://www.2embed.cc/embed/tt0144084" }
+    ],
+    type: "movie"
+  },
+
+  {
+    title: "Reign of Fire",
+    poster_path: "https://www.themoviedb.org/t/p/w1280/2q99BMdREAfpXVGaM8Gzilw8o3z.jpg",
+    description: "In post-apocalyptic England, an American volunteer and a British survivor team up to fight off a brood of fire-breathing dragons seeking to return to global dominance after centuries of rest underground. The Brit -- leading a clan of survivors to hunt down the King of the Dragons -- has much at stake: his mother was killed by a dragon, but his love is still alive.",
+    releaseDate: "July 12, 2002",
+    duration: "1h 42m",
+    rating: "6.2",
+    genre: "Action, Adventure, Fantasy",
+    director: "Rob Bowman",
+    quality: "HD",
+    country: "United Kingdom",
+    cast: "Christian Bale, Matthew McConaughey, Izabella Scorupco, Gerard Butler, Scott Moutter",
+    trailerImage: "https://image.tmdb.org/t/p/w780/xpaf2yQ8EAgP8RiLJrrSN5eF1sI.jpg",
+    videoUrl: "https://www.2embed.cc/embed/tt0253556",
+    servers: [
+      { name: "Default", url: "https://www.2embed.cc/embed/tt0253556" }
+    ],
+    type: "movie"
+  },
+
+  {
+    title: "The Machinist",
+    poster_path: "https://www.themoviedb.org/t/p/w1280/diAYqR4xdF9Hnj7qun6DEQhRrT2.jpg",
+    description: "Trevor, an insomniac lathe operator, experiences unusual occurrences at work and home. A strange man follows him everywhere, but no one else seems to notice him.",
+    releaseDate: "February 9, 2004",
+    duration: "1h 42m",
+    rating: "7.7",
+    genre: "Drama, Thriller",
+    director: "Brad Anderson",
+    quality: "HD",
+    country: "Spain",
+    cast: "Christian Bale, Jennifer Jason Leigh, Aitana Sánchez-Gijón, John Sharian, Michael Ironside",
+    trailerImage: "https://image.tmdb.org/t/p/w780/7GKGnHtq9Z0Wdz0Gn3S5Qj0wY5.jpg",
+    videoUrl: "https://www.2embed.cc/embed/tt0361862",
+    servers: [
+      { name: "Default", url: "https://www.2embed.cc/embed/tt0361862" }
+    ],
+    type: "movie"
+  },
+
+  {
+    title: "The Fighter",
+    poster_path: "https://www.themoviedb.org/t/p/w1280/xfsFerGhO1h6rLk8vwLgMyQ8WVJ.jpg",
+    description: "The Fighter, is a drama about boxer \"Irish\" Micky Ward's unlikely road to the world light welterweight title. His Rocky-like rise was shepherded by half-brother Dicky, a boxer-turned-trainer who rebounded in life after promising careers cut short by injuries. The brothers' bond is tested as Dicky becomes an unpredictable liability in Micky's corner.",
+    releaseDate: "December 17, 2010",
+    duration: "1h 56m",
+    rating: "7.8",
+    genre: "Biography, Drama, Sport",
+    director: "David O. Russell",
+    quality: "HD",
+    country: "United States",
+    cast: "Christian Bale, Amy Adams, Melissa Leo, Jack McGee, Frank Renzulli",
+    trailerImage: "https://image.tmdb.org/t/p/w780/1mHGTyR4xXqQ3tLdk1XH3KHlBg.jpg",
+    videoUrl: "https://www.2embed.cc/embed/tt0964517",
+    servers: [
+      { name: "Default", url: "https://www.2embed.cc/embed/tt0964517" }
+    ],
+    type: "movie"
+  },
+
+  {
+    title: "American Hustle",
+    poster_path: "https://www.themoviedb.org/t/p/w1280/xG7GItJOnsdS72sSAnZQTjZxz4i.jpg",
+    description: "A con man, Irving Rosenfeld, along with his seductive partner Sydney Prosser, is forced to work for a wild F.B.I. Agent, Richie DiMaso, who pushes them into a world of Jersey powerbrokers and mafia.",
+    releaseDate: "December 20, 2013",
+    duration: "2h 18m",
+    rating: "7.2",
+    genre: "Crime, Drama",
+    director: "David O. Russell",
+    quality: "HD",
+    country: "United States",
+    cast: "Christian Bale, Amy Adams, Bradley Cooper, Jennifer Lawrence, Jeremy Renner",
+    trailerImage: "https://image.tmdb.org/t/p/w780/rhDqHdSTxH0FjMqS7tcUhDRo2vK.jpg",
+    videoUrl: "https://www.2embed.cc/embed/tt1800241",
+    servers: [
+      { name: "Default", url: "https://www.2embed.cc/embed/tt1800241" }
+    ],
+    type: "movie"
+  },
+
+  {
+    title: "Out of the Furnace",
+    poster_path: "https://www.themoviedb.org/t/p/w1280/A2vPpZJKvWbl7OTTeEYcLCwhyFV.jpg",
+    description: "Two brothers live in the economically-depressed Rust Belt, when one brother's face-off with another is caught in a chase with a serial killer. The other brother is forced to hunt down this killer.",
+    releaseDate: "December 6, 2013",
+    duration: "1h 56m",
+    rating: "6.8",
+    genre: "Crime, Drama, Thriller",
+    director: "Scott Cooper",
+    quality: "HD",
+    country: "United States",
+    cast: "Christian Bale, Casey Affleck, Woody Harrelson, Zoe Saldana, Forest Whitaker",
+    trailerImage: "https://image.tmdb.org/t/p/w780/5h6vHg8NoJnlQ6Q0uY9e6TJt0b.jpg",
+    videoUrl: "https://www.2embed.cc/embed/tt1206543",
+    servers: [
+      { name: "Default", url: "https://www.2embed.cc/embed/tt1206543" }
+    ],
+    type: "movie"
+  },
+
+  {
+    title: "Vice",
+    poster_path: "https://www.themoviedb.org/t/p/w1280/seqLrPNbWJdcX6PeEhBNkmxjz6h.jpg",
+    description: "George W. Bush picks Dick Cheney, the CEO of Halliburton Co., to be his Republican running mate in the 2000 presidential election. No stranger to politics, Cheney's impressive résumé includes stints as White House chief of staff, House Minority Whip and defense secretary. When Bush wins by a narrow margin, Cheney begins to use his newfound power to help reshape the country and the world.",
+    releaseDate: "December 25, 2018",
+    duration: "2h 12m",
+    rating: "7.2",
+    genre: "Biography, Comedy, Drama",
+    director: "Adam McKay",
+    quality: "HD",
+    country: "United States",
+    cast: "Christian Bale, Amy Adams, Steve Carell, Sam Rockwell, Alison Pill",
+    trailerImage: "https://image.tmdb.org/t/p/w780/1B3tEE0AcJcMqVwxyUdHPPeWOqe.jpg",
+    videoUrl: "https://www.2embed.cc/embed/tt6266538",
+    servers: [
+      { name: "Default", url: "https://www.2embed.cc/embed/tt6266538" }
+    ],
+    type: "movie"
+  },
+
+  {
+    title: "Ford v Ferrari",
+    poster_path: "https://image.tmdb.org/t/p/w780/6ApDtO7xaWAfPqfi2IARXIzj8QS.jpg",
+    description: "American car designer Carroll Shelby and driver Ken Miles battle corporate interference and the laws of physics to build a revolutionary race car for Ford in order to defeat Ferrari at the 24 Hours of Le Mans in 1966.",
+    releaseDate: "November 15, 2019",
+    duration: "2h 32m",
+    rating: "8.2",
+    genre: "Action, Biography, Drama",
+    director: "James Mangold",
+    quality: "HD",
+    country: "United States",
+    cast: "Christian Bale, Matt Damon, Caitriona Balfe, Jon Bernthal, Tracy Letts",
+    trailerImage: "https://image.tmdb.org/t/p/w780/6ApDtO7xaWAfPqfi2IARXIzj8QS.jpg",
+    videoUrl: "https://www.2embed.cc/embed/tt1950186",
+    servers: [
+      { name: "Default", url: "https://www.2embed.cc/embed/tt1950186" }
+    ],
+    type: "movie"
+  },
+
+  {
+    title: "The Pale Blue Eye",
+    poster_path: "https://www.themoviedb.org/t/p/w1280/9xkGlFRqrN8btTLU0KQvOfn2PHr.jpg",
+    description: "West Point, New York, 1830. When a cadet at the burgeoning military academy is found hanged with his heart torn out, the top brass summons former New York City constable Augustus Landor to investigate. While attempting to solve this grisly mystery, the reluctant detective engages the help of one of the cadets: a strange but brilliant young fellow by the name Edgar Allan Poe.",
+    releaseDate: "December 23, 2022",
+    duration: "2h 8m",
+    rating: "6.6",
+    genre: "Crime, Horror, Mystery",
+    director: "Scott Cooper",
+    quality: "HD",
+    country: "United States",
+    cast: "Christian Bale, Harry Melling, Simon McBurney, Timothy Spall, Gillian Anderson",
+    trailerImage: "https://image.tmdb.org/t/p/w780/kd9gFtlZo9X2ZOWU0JGGnZ1p9J.jpg",
+    videoUrl: "https://www.2embed.cc/embed/tt14174394",
+    servers: [
+      { name: "Default", url: "https://www.2embed.cc/embed/tt14174394" }
+    ],
+    type: "movie"
+  },
+
+  {
+    title: "Scarface",
+    poster_path: "https://image.tmdb.org/t/p/w780/iQ5ztdjvteGeboxtmRdXEChJOHh.jpg",
+    description: "After getting a green card in exchange for assassinating a Cuban government official, Tony Montana stakes a claim on the drug trade in Miami. Viciously murdering anyone who stands in his way, Tony eventually becomes the biggest drug lord in the state, controlling nearly all the cocaine that comes through Miami. But increased pressure from the police, wars with Colombian drug lords and his own drug-fueled paranoia serve to fuel the flames of his eventual downfall.",
+    releaseDate: "December 9, 1983",
+    duration: "2h 50m",
+    rating: "8.3",
+    genre: "Crime, Drama",
+    director: "Brian De Palma",
+    quality: "HD",
+    country: "United States",
+    cast: "Al Pacino, Steven Bauer, Michelle Pfeiffer, Mary Elizabeth Mastrantonio, Robert Loggia, Miriam Colon, F. Murray Abraham",
+    trailerImage: "https://image.tmdb.org/t/p/w780/iQ5ztdjvteGeboxtmRdXEChJOHh.jpg",
+    videoUrl: "https://www.2embed.cc/embed/tt0086250",
+    servers: [
+      { name: "Default", url: "https://www.2embed.cc/embed/tt0086250" }
+    ],
+    type: "movie"
+  },
+
+  {
+    title: "Zodiac",
+    poster_path: "https://www.themoviedb.org/t/p/w1280/6YmeO4pB7XTh8P8F960O1uA14JO.jpg",
+    description: "A cartoonist joins forces with an ace reporter to track down an infamous killer known as the Zodiac.",
+    releaseDate: "March 2, 2007",
+    duration: "2h 37m",
+    rating: "7.7",
+    genre: "Crime, Drama, Mystery, Thriller",
+    director: "David Fincher",
+    quality: "HD",
+    country: "United States",
+    cast: "Jake Gyllenhaal, Robert Downey Jr., Patrick Wilson, Robin Wright, Brian Cox, John Carroll Lynch, Chloë Sevigny",
+    trailerImage: "https://image.tmdb.org/t/p/w780/6YmeO5w1UEjod8qKdL3PnHAnmIx.jpg",
+    videoUrl: "https://www.2embed.cc/embed/tt0443706",
+    servers: [
+      { name: "Default", url: "https://www.2embed.cc/embed/tt0443706" }
+    ],
+    type: "movie"
   }
 ];
 
@@ -3044,7 +4096,7 @@ const tvShowsList = [
     quality: "HD",
     country: "United States",
     cast: "Bryan Cranston, Aaron Paul, Anna Gunn",
-    trailerImage: "https://www.2embed.cc/embed/tt1375666",
+    trailerImage: "https://image.tmdb.org/t/p/w780/ggFHVNu6YYI5L9pCfOacjizRGt.jpg",
     type: "tv",
     seasons: 5,
     episodes: 62,
@@ -4075,8 +5127,8 @@ const tvShowsList = [
     seasons: 1,
     episodes: 6,
     seasonsEpisodes: [6]
-  },
-];
+  }
+ ];
 
 const combinedList = [...movieList, ...tvShowsList];
 const newPopularTitles = [

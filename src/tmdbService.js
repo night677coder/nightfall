@@ -63,10 +63,10 @@ export const getMovieVideos = async (movieId) => {
 };
 
 export const getPosterUrl = (posterPath) => {
-  return posterPath ? `${IMAGE_BASE_URL}${posterPath}` : null;
+  return posterPath ? `${IMAGE_BASE_URL}${posterPath}` : 'https://via.placeholder.com/200x300?text=No+Image';
 };
 
-export const getTrailerUrl = (videos) => {
+export const getTrailerUrl = () => {
   // Always use 2embed fallback instead of YouTube
   return null;
 };
