@@ -6,6 +6,7 @@ import Row from './components/Row.jsx';
 import MovieDetail from './components/MovieDetail.jsx';
 import AddMovie from './components/AddMovie.jsx';
 import Footer from './components/Footer.jsx';
+import AdSense from './components/AdSense.jsx';
 import { trending, movies, tvshows, newpopular, mylist, allMovies } from './movieData';
 
 const shuffleArray = (items) => {
@@ -174,8 +175,10 @@ function App() {
           <>
             <Banner movie={shuffledTrending[0] || trending[0]} onSelect={handleSelectMovie} />
             <Row id="trending" title="Trending Now" movies={shuffledTrending} showArrows onSelect={handleSelectMovie} />
+            <AdSense adSlot="1234567890" />
             <Row id="movies" title="movies" movies={shuffledMovies.slice(0, 6)} onSelect={handleSelectMovie} />
             <Row id="new" title="New & Popular" movies={shuffledNewPopular.slice(0, 6)} onSelect={handleSelectMovie} />
+            <AdSense adSlot="0987654321" />
             <Row id="mylist-home" title="My List" movies={[...mylist, ...userAddedMovies].slice(0,6)} onSelect={handleSelectMovie} />
             <Row id="Tv Shows" title="Tv Shows" movies={shuffledTvShows.slice(0, 6)} onSelect={handleSelectMovie} />
           </>

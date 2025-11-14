@@ -40,5 +40,5 @@ export default defineConfig({
       }
     })
   ],
-  base: '/nightfall/',
+  base: '/',
 })

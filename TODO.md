@@ -1,9 +1,6 @@
-# TODO: Deploy Updated Build to GitHub Pages
+# TODO: Add Google AdSense to NIGHTFALL App
 
-## Steps to Complete:
-- [x] Update vite.config.js to set base: '/nightfall/' for correct GitHub Pages deployment
-- [x] Run npm run build to create the dist folder
-- [x] Run npm run deploy to push to GitHub Pages
-- [x] Test the deployed site to ensure homepage loads correctly
-- [x] Commit and push changes to main branch
-- [x] Verify deployment on GitHub Pages
+- [x] Add AdSense script to index.html
+- [x] Create AdSense component (src/components/AdSense.jsx)
+- [x] Integrate AdSense component into App.jsx (place between rows)
+- [x] Test ad loading and responsiveness (browser tool disabled, manual testing recommended)
