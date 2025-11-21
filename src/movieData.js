@@ -1124,7 +1124,7 @@ const movieList = [
     country: "United States",
     cast: "Zachary Levi, Asher Angel, Jack Dylan Grazer",
     trailerImage: "https://image.tmdb.org/t/p/w780/2VK4d3mqqTc7LVZLnLPeRiPaJ71.jpg",
-    videoUrl: "https://www.2embed.cc/embed/tt10171946",
+    videoUrl: "https://www.2embed.cc/embed/tt10151854",
     type: "movie"
   },
 {
